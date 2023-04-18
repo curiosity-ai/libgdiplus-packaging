@@ -8,7 +8,8 @@
     <PackageProjectUrl>https://github.com/curiosity-ai/libgdiplus-packaging</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <Copyright>Mono</Copyright>
-    <LibgdiplusDir>out/usr/local/lib/</LibgdiplusDir>
+    <LibgdiplusDir>./out/usr/local/lib/</LibgdiplusDir>
+    <PackageId>Curiosity.runtime.osx.10.10-arm64.CoreCompat.System.Drawing</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
