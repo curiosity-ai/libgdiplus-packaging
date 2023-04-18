@@ -18,3 +18,10 @@ To use this NuGet package, add a reference to the [runtime.osx.10.10-x64.CoreCom
 ```
 dotnet add package runtime.osx.10.10-x64.CoreCompat.System.Drawing
 ```
+
+For Apple Silicon, add a reference to the [runtime.osx.10.10-x64.CoreCompat.System.Drawing](https://www.nuget.org/packages/runtime.osx.10.10-arm64.CoreCompat.System.Drawing):
+
+```
+dotnet add package runtime.osx.10.10-arm64.CoreCompat.System.Drawing
+```
+

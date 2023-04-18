@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>macOS Native libraries for System.Drawing.Common</Title>
+    <Description>Allows you to use System.Drawing.Common on macOS</Description>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/CoreCompat/libgdiplus-packaging/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/curiosity-ai/libgdiplus-packaging</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <Copyright>Mono</Copyright>
+    <LibgdiplusDir>out/usr/local/lib/</LibgdiplusDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="$(LibgdiplusDir)*.dylib" PackagePath="runtimes/osx-arm64/native/"/>
+  </ItemGroup>
+</Project>
